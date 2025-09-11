@@ -66,7 +66,7 @@
                                     <a class="nav-link" href="About.aspx">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="BookTable.aspx">BookTable</a>
+                                    <a class="nav-link" href="Contact.aspx">BookTable</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="Login.aspx">Login</a>

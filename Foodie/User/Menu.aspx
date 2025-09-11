@@ -1,6 +1,87 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="Foodie.User.Menu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+   
+    <style>
+/* Container Grid */
+.menu_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Card */
+.box {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 260px; /* fixed card width */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Image */
+.img-box {
+  width: 100%;
+  height: 180px;  /* fixed image height */
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps aspect ratio */
+  border-bottom: 1px solid #eee;
+}
+
+/* Details */
+.detail-box {
+  padding: 15px;
+  text-align: left;
+  background: #1f252e;  /* dark background */
+  color: #fff;          /* font color white */
+}
+
+.detail-box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff; /* food name white */
+  margin-bottom: 6px;
+}
+
+.detail-box p {
+  font-size: 14px;
+  color: #d1d1d1; /* lighter gray for config */
+  margin: 3px 0;
+}
+
+.options {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start; /* only price */
+  align-items: center;
+}
+
+.options h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff9f00; /* orange price */
+  margin: 0;
+}
+
+
+    </style>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -19,9 +100,36 @@
                 <li data-filter=".pizza">Pizza</li>
                 <li data-filter=".pasta">Pasta</li>
                 <li data-filter=".fries">Fries</li>
+        </div>
+        <br />
+        <center>
+            <asp:DataList ID="DataList1" runat="server"
+                CellPadding="10" CellSpacing="50" RepeatDirection="Horizontal"
+                RepeatColumns="3">
+                <ItemTemplate>
+                    <div class='col-sm-6 col-lg-4 all <%# Eval("Category") %>'>
+                        <div class="box">
+                            <div class="img-box">
+                                <asp:Image ID="Image1" runat="server" CssClass="img-fluid"
+                                    Height="150px" Width="150px" ImageUrl='<%# Eval("Image") %>' />
+                            </div>
+                            <div class="detail-box">
+                                <h5><%# Eval("FoodName") %></h5>
+                                <p>Config: <%# Eval("Prod_config") %></p>
+                                <div class="options">
+                                    <h6>₹ <%# Eval("Price") %></h6>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ItemTemplate>
+            </asp:DataList>
+        </center>
+        </li>
             </ul>
 
-            <div class="filters-content">
+            <%--<div class="filters-content">
                 <div class="row grid">
                     <div class="col-sm-6 col-lg-4 all pizza">
                         <div class="box">
@@ -690,12 +798,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="btn-box">
-                <a href="">View More
-                </a>
-            </div>
+            </div>--%>
+
+
+
+
+
+        <div class="btn-box">
+            <a href="">View More
+            </a>
         </div>
+
     </section>
 
     <!-- end food section -->

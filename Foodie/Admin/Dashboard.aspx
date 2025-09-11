@@ -138,11 +138,11 @@ body {
     <div>
         <h2>Admin</h2>
         <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Food Items</a></li>
-            <li><a href="#">Show Product</a></li>
-            <li><a href="#">Add Product</a></li>
-            <li><a href="#">Add Category</a></li>
+            <li><a href="Dashboard.aspx">Dashboard</a></li>
+            <li><a href="BookTableList.aspx">Book Table</a></li>
+            <li><a href="User.aspx">User</a></li>
+            <li><a href="AddProduct.aspx">AddProduct</a></li>
+            <li><a href="AddFood.aspx">Add Food</a></li>
            </ul>
     </div>
     <a href="#" class="logout">Logout</a>
@@ -152,16 +152,9 @@ body {
     <a href="#">Online Food Ordering</a>
 </div>
 
-<div class="main-content">
-    <h1>Admin Dashboard</h1>
-    <div class="cards">
-    <div class="card orders">0 Orders</div>
-    <div class="card customers">0 Customers</div>
-    <div class="card payments">0 Payments</div>
-    <div class="card revenue">₹0 Revenue</div>
-</div>
 
-</div>
+
+
 
 
    

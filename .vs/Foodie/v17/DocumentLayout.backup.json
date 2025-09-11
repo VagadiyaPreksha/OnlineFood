@@ -3,23 +3,36 @@
   "WorkspaceRootPath": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|e:\\asp.net(pb)\\foodie (3) (2)\\foodie\\foodie\\foodie\\admin\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|e:\\asp.net(pb)\\foodie (3) (2)\\foodie\\foodie\\foodie\\admin\\booktablelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\booktablelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__ASP.NET_PB__FOODIE__3___2__FOODIE_FOODIE_FOODIE_APP_DATA_FOOD_DB.MDF/True/SqlTable/dbo.AdminRegister_tbl.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|e:\\asp.net(pb)\\foodie (3) (2)\\foodie\\foodie\\foodie\\user\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\user\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|e:\\asp.net(pb)\\foodie (3) (2)\\foodie\\foodie\\foodie\\admin\\adminregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\adminregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\foodie\\admin\\booktablelist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\booktablelist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|e:\\asp.net(pb)\\foodie (3) (2)\\foodie\\foodie\\foodie\\admin\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\foodie\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|e:\\asp.net(pb)\\foodie (3) (2)\\foodie\\foodie\\foodie\\admin\\addproduct.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\foodie\\admin\\onlinefoodmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\onlinefoodmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\foodie\\admin\\addproduct.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\admin\\addproduct.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\foodie\\user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\foodie\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AD3782B3-88B3-487F-A5F3-F77A9D92C93B}|Foodie\\Foodie.csproj|solutionrelative:foodie\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1278,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,55 +51,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.AdminRegister_tbl [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/E__ASP.NET_PB__FOODIE__3___2__FOODIE_FOODIE_FOODIE_APP_DATA_FOOD_DB.MDF/True/SqlTable/dbo.AdminRegister_tbl.sql",
-              "ToolTip": "dbo.AdminRegister_tbl [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-08T03:08:15.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminRegister.aspx",
-              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\AdminRegister.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\AdminRegister.aspx",
-              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\AdminRegister.aspx",
-              "RelativeToolTip": "Foodie\\Admin\\AdminRegister.aspx",
+              "Title": "Index.aspx",
+              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\User\\Index.aspx",
+              "RelativeDocumentMoniker": "Foodie\\User\\Index.aspx",
+              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\User\\Index.aspx",
+              "RelativeToolTip": "Foodie\\User\\Index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-08T03:07:30.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminLogin.aspx.cs",
-              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\AdminLogin.aspx.cs",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\AdminLogin.aspx.cs",
-              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\AdminLogin.aspx.cs",
-              "RelativeToolTip": "Foodie\\Admin\\AdminLogin.aspx.cs",
-              "ViewState": "AgIAAB4AAADAMTMzMzMwwDEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T03:06:07.83Z",
+              "WhenOpened": "2025-09-10T17:18:05.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminLogin.aspx",
-              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\AdminLogin.aspx",
-              "RelativeDocumentMoniker": "Foodie\\Admin\\AdminLogin.aspx",
-              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\AdminLogin.aspx",
-              "RelativeToolTip": "Foodie\\Admin\\AdminLogin.aspx",
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\Dashboard.aspx",
+              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\Dashboard.aspx",
+              "RelativeToolTip": "Foodie\\Admin\\Dashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-08T03:05:52.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T16:31:35.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "BookTableList.aspx.cs",
+              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\BookTableList.aspx.cs",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\BookTableList.aspx.cs",
+              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\BookTableList.aspx.cs",
+              "RelativeToolTip": "Foodie\\Admin\\BookTableList.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwDQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:17:50.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.aspx",
+              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\User\\Menu.aspx",
+              "RelativeDocumentMoniker": "Foodie\\User\\Menu.aspx",
+              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\User\\Menu.aspx",
+              "RelativeToolTip": "Foodie\\User\\Menu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-10T15:52:54.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AddProduct.aspx",
               "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\AddProduct.aspx",
               "RelativeDocumentMoniker": "Foodie\\Admin\\AddProduct.aspx",
@@ -94,8 +107,45 @@
               "RelativeToolTip": "Foodie\\Admin\\AddProduct.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-08T03:05:37.168Z",
+              "WhenOpened": "2025-09-10T15:51:17.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookTableList.aspx",
+              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\BookTableList.aspx",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\BookTableList.aspx",
+              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\BookTableList.aspx",
+              "RelativeToolTip": "Foodie\\Admin\\BookTableList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-10T15:50:44.387Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OnlineFoodMaster.Master",
+              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\OnlineFoodMaster.Master",
+              "RelativeDocumentMoniker": "Foodie\\Admin\\OnlineFoodMaster.Master",
+              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\Admin\\OnlineFoodMaster.Master",
+              "RelativeToolTip": "Foodie\\Admin\\OnlineFoodMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-10T16:32:11.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\User\\Contact.aspx",
+              "RelativeDocumentMoniker": "Foodie\\User\\Contact.aspx",
+              "ToolTip": "E:\\asp.net(pb)\\Foodie (3) (2)\\Foodie\\Foodie\\Foodie\\User\\Contact.aspx",
+              "RelativeToolTip": "Foodie\\User\\Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-10T15:50:33.051Z"
             }
           ]
         }

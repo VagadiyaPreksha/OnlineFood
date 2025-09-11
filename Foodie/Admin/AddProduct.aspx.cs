@@ -53,23 +53,14 @@ namespace Foodie.Admin
         {
             if (flpimg.HasFile)
             {
-                fnm = "Prod_images/" + flpimg.FileName;
+                fnm = "..//Prod_images/" + flpimg.FileName;
                 flpimg.SaveAs(Server.MapPath(fnm));
             }
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-            if (Button1.Text == "Add")
-            {
-                getcon();
-                imgupload();
-                cmd = new SqlCommand("insert into add_prod(Food Name,Category,Prod_Config,Price,Image) values('" + ViewState["cid"] + "' , '" + textfdnm.Text + "' ,  '" + drpdwn.Text + "' , '" + txtpconfig.Text + "','"+ txtprc.Text + "', '" + fnm + "')", con);
-                cmd.ExecuteNonQuery();
-                clear();
-
-                Response.Redirect(Request.RawUrl);
-            }
+           
         }
 
         protected void drpdwn_SelectedIndexChanged(object sender, EventArgs e)
@@ -80,6 +71,20 @@ namespace Foodie.Admin
             ds = new DataSet();
             da.Fill(ds);
             ViewState["cid"] = ds.Tables[0].Rows[0][0].ToString();
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            if (Button1.Text == "Add")
+            {
+                getcon();
+                imgupload();
+                cmd = new SqlCommand("insert into add_prod(FoodName,Category,Prod_Config,Price,Image) values('" + textfdnm.Text + "' , '" + drpdwn.Text + "' , '" + txtpconfig.Text + "','" + txtprc.Text + "', '" + fnm + "')", con);
+                cmd.ExecuteNonQuery();
+                clear();
+
+                Response.Redirect(Request.RawUrl);
+            }
         }
     }
 }

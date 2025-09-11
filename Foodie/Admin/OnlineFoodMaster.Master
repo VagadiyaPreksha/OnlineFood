@@ -41,9 +41,9 @@
         </a>
     </li>
     <li>
-        <a href="FoodItems.aspx">
+        <a href="BookTableList.aspx">
             <div class="icon"><i class="fas fa-hamburger"></i></div>
-            <div class="title">Food Items</div>
+            <div class="title">Book Table</div>
         </a>
     </li>
     <li>
@@ -53,17 +53,18 @@
         </a>
     </li>
     <li>
-        <a href="ShowProduct.aspx">
+        <a href="User.aspx">
             <div class="icon"><i class="fas fa-box-open"></i></div>
-            <div class="title">Show Product</div>
+            <div class="title">USer</div>
         </a>
     </li>
     <li>
-        <a href="AddCategory.aspx">
+        <a href="AddFood.aspx">
             <div class="icon"><i class="fas fa-list-alt"></i></div>
-            <div class="title">Add Category</div>
+            <div class="title">AddFood</div>
         </a>
     </li>
+    
 </ul>
 
                     <!-- Logout -->

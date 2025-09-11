@@ -131,11 +131,7 @@
                     <td>
                         <asp:DropDownList ID="drpdwn" runat="server" OnSelectedIndexChanged="drpdwn_SelectedIndexChanged">
                             <asp:ListItem>--Select Food--</asp:ListItem>
-                            <asp:ListItem>Burger</asp:ListItem>
-                            <asp:ListItem>Pizza</asp:ListItem>
-                            <asp:ListItem>Pasta</asp:ListItem>
-                            <asp:ListItem>Fries</asp:ListItem>
-                            <asp:ListItem></asp:ListItem>
+                            
                         </asp:DropDownList>
                     </td>
                 </tr>
@@ -158,7 +154,7 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Add" /></td>
+                        <asp:Button ID="Button1" runat="server" Text="Add" OnClick="Button1_Click1" /></td>
                 </tr>
 
             </table>

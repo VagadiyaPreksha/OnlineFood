@@ -28,20 +28,19 @@ namespace Foodie.User
             con = new SqlConnection(s);
             con.Open();
         }
-
-        protected void btnlogin_Click(object sender, EventArgs e)
+        protected void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtunm.Text != null && txtpass != null)
+            if (txtUsername.Text != null && txtPassword != null)
             {
 
 
                 getcon();
-                cmd = new SqlCommand("select count(*) from Register_tbl where  UserName= '" + txtunm.Text + "' and Password='" + txtpass.Text + "'", con);
+                cmd = new SqlCommand("select count(*) from Register_tbl where  UserName= '" + txtUsername.Text + "' and Password='" + txtPassword.Text + "'", con);
                 i = Convert.ToInt32(cmd.ExecuteScalar());
 
                 if (i > 0)
                 {
-                    Session["admin"] = txtunm.Text;
+                    Session["admin"] = txtUsername.Text;
                     Response.Redirect("Index.aspx");
                 }
                 else
@@ -51,7 +50,6 @@ namespace Foodie.User
 
 
             }
-
         }
     }
 }

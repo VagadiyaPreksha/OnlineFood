@@ -152,6 +152,8 @@
                 <span class="switch">Already have an account? <a href="AdminLogin.aspx">AdminLogin</a>
                 </span>
             </div>
+              <center>
+      
         </div>
     </form>
 </body>

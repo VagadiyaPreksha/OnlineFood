@@ -29,6 +29,7 @@ namespace Foodie.User
         protected void Page_Load(object sender, EventArgs e)
         {
             getcon();
+            imgupload();
         }
         void getcon()
         {
@@ -65,7 +66,7 @@ namespace Foodie.User
 
         protected void btnregister_Click3(object sender, EventArgs e)
         {
-
+            imgupload();
             if (btnregister.Text == "Register")
             {
                 getcon();
