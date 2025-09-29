@@ -35,6 +35,15 @@ namespace Foodie.User
             con.Open();
         }
 
+        protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
+        {
+            //if(e.CommandName =="cmd_view")
+            //{
+            //    int id =Convert.ToInt16(e.CommandArgument);
+            //    Response.Redirect("ViewDetail.aspx?id="+id);
+            //}
+        }
+
         void filllist()
         {
             getcon();

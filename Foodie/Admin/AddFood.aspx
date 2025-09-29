@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/OnlineFoodMaster.Master" AutoEventWireup="true" CodeBehind="AddFood.aspx.cs" Inherits="Foodie.Admin.add_food" %>
+﻿       <%@ Page Title="" Language="C#" MasterPageFile="~/Admin/OnlineFoodMaster.Master" AutoEventWireup="true" CodeBehind="AddFood.aspx.cs" Inherits="Foodie.Admin.add_food" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
     body {

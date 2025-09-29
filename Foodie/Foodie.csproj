@@ -166,6 +166,13 @@
     <Compile Include="Admin\OnlineFoodMaster.Master.designer.cs">
       <DependentUpon>OnlineFoodMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -202,6 +209,13 @@
     <Compile Include="User\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -232,6 +246,7 @@
     <Content Include="Admin\AdminRegister.aspx" />
     <Content Include="Admin\BookTableList.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\User.aspx" />
     <Content Include="App_Data\food_db.mdf" />
     <Content Include="App_Data\food_db_log.ldf">
       <DependentUpon>food_db.mdf</DependentUpon>
@@ -392,6 +407,7 @@
     <Content Include="User\Contact.aspx" />
     <Content Include="User\Index.aspx" />
     <Content Include="User\Login.aspx" />
+    <Content Include="User\Logout.aspx" />
     <Content Include="User\Menu.aspx" />
     <Content Include="User\Registration.aspx" />
     <Content Include="Web.config" />
@@ -416,6 +432,7 @@
     <Content Include="TemplateFiles\fonts\fontawesome-webfont.woff2" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin\Prod_images\" />
     <Folder Include="Models\" />
     <Folder Include="Prod_images\" />
     <Folder Include="User\images\" />

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/OnlineFoodMaster.Master" AutoEventWireup="true" CodeBehind="BookTableList.aspx.cs" Inherits="Foodie.Admin.BookTableList" %>
+﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/Admin/OnlineFoodMaster.Master" AutoEventWireup="true" CodeBehind="BookTableList.aspx.cs" Inherits="Foodie.Admin.BookTableList" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
         <style>
@@ -224,7 +224,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="table-box">
    <h2 class="table-title">Booked Tables</h2>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" style="margin-left: 272px">    
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand" style="margin-left: 0px" Width="656px">    
      <Columns>
 
             <asp:TemplateField HeaderText="Name">

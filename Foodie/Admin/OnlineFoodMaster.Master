@@ -12,6 +12,144 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
+    <style>
+  /* admin.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+.wrapper {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 100%;
+    background: #1e1e2f;
+    transition: all 0.3s ease;
+    overflow-y: auto;
+    z-index: 100;
+}
+.sidebar_inner {
+    padding: 20px;
+}
+.sidebar .close {
+    display: none;
+    text-align: right;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+.profile_info {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+.profile_info .name {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Sidebar Menu */
+.sidebar_menu {
+    list-style: none;
+    padding: 20px 0;
+}
+.sidebar_menu li {
+    margin-bottom: 15px;
+}
+.sidebar_menu a {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    color: #ddd;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.sidebar_menu a:hover {
+    background: #ff6f61;
+    color: #fff;
+}
+.sidebar_menu .icon {
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+/* Logout */
+.logout_btn {
+    margin-top: 30px;
+    text-align: center;
+}
+.logout_btn a,
+.logout_btn asp\:LinkButton {
+    display: inline-block;
+    background: #e74c3c;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+.logout_btn a:hover,
+.logout_btn asp\:LinkButton:hover {
+    background: #c0392b;
+}
+
+/* Main container */
+.main_container {
+    margin-left: 240px;
+    padding: 20px;
+    width: calc(100% - 240px);
+    transition: all 0.3s ease;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.navbar .hamburger {
+    font-size: 22px;
+    cursor: pointer;
+    color: #333;
+}
+.navbar .logo a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Responsive Sidebar */
+@media (max-width: 992px) {
+    .sidebar { left: -240px; }
+    .sidebar.active { left: 0; }
+    .main_container { margin-left: 0; width: 100%; }
+    .sidebar .close { display: block; }
+}
+
+    </style>
 <body>
     <form id="form1" runat="server">
         
@@ -55,7 +193,7 @@
     <li>
         <a href="User.aspx">
             <div class="icon"><i class="fas fa-box-open"></i></div>
-            <div class="title">USer</div>
+            <div class="title">User</div>
         </a>
     </li>
     <li>

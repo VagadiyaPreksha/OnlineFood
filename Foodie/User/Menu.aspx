@@ -1,85 +1,83 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="Foodie.User.Menu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-   
+
     <style>
-/* Container Grid */
-.menu_items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 30px;
-}
+        /* Container Grid */
+        .menu_items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
 
-/* Card */
-.box {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  width: 260px; /* fixed card width */
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+        /* Card */
+        .box {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            width: 260px; /* fixed card width */
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-.box:hover {
-  transform: translateY(-6px);
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
-}
+            .box:hover {
+                transform: translateY(-6px);
+                box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+            }
 
-/* Image */
-.img-box {
-  width: 100%;
-  height: 180px;  /* fixed image height */
-  background: #f5f5f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+        /* Image */
+        .img-box {
+            width: 100%;
+            height: 180px; /* fixed image height */
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-.img-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* keeps aspect ratio */
-  border-bottom: 1px solid #eee;
-}
+            .img-box img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* keeps aspect ratio */
+                border-bottom: 1px solid #eee;
+            }
 
-/* Details */
-.detail-box {
-  padding: 15px;
-  text-align: left;
-  background: #1f252e;  /* dark background */
-  color: #fff;          /* font color white */
-}
+        /* Details */
+        .detail-box {
+            padding: 15px;
+            text-align: left;
+            background: #1f252e; /* dark background */
+            color: #fff; /* font color white */
+        }
 
-.detail-box h5 {
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffffff; /* food name white */
-  margin-bottom: 6px;
-}
+            .detail-box h5 {
+                font-size: 18px;
+                font-weight: 600;
+                color: #ffffff; /* food name white */
+                margin-bottom: 6px;
+            }
 
-.detail-box p {
-  font-size: 14px;
-  color: #d1d1d1; /* lighter gray for config */
-  margin: 3px 0;
-}
+            .detail-box p {
+                font-size: 14px;
+                color: #d1d1d1; /* lighter gray for config */
+                margin: 3px 0;
+            }
 
-.options {
-  margin-top: 10px;
-  display: flex;
-  justify-content: flex-start; /* only price */
-  align-items: center;
-}
+        .options {
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-start; /* only price */
+            align-items: center;
+        }
 
-.options h6 {
-  font-size: 16px;
-  font-weight: 600;
-  color: #ff9f00; /* orange price */
-  margin: 0;
-}
-
-
+            .options h6 {
+                font-size: 16px;
+                font-weight: 600;
+                color: #ff9f00; /* orange price */
+                margin: 0;
+            }
     </style>
 
 </asp:Content>
@@ -100,12 +98,13 @@
                 <li data-filter=".pizza">Pizza</li>
                 <li data-filter=".pasta">Pasta</li>
                 <li data-filter=".fries">Fries</li>
+            </ul>
         </div>
         <br />
         <center>
             <asp:DataList ID="DataList1" runat="server"
                 CellPadding="10" CellSpacing="50" RepeatDirection="Horizontal"
-                RepeatColumns="3">
+                RepeatColumns="3" OnItemCommand="DataList1_ItemCommand">
                 <ItemTemplate>
                     <div class='col-sm-6 col-lg-4 all <%# Eval("Category") %>'>
                         <div class="box">
@@ -118,7 +117,8 @@
                                 <p>Config: <%# Eval("Prod_config") %></p>
                                 <div class="options">
                                     <h6>₹ <%# Eval("Price") %></h6>
-                                    
+
+
                                 </div>
                             </div>
                         </div>
@@ -805,8 +805,7 @@
 
 
         <div class="btn-box">
-            <a href="">View More
-            </a>
+            <asp:Button ID="Button2" runat="server" Text="View More" />
         </div>
 
     </section>

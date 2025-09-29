@@ -185,8 +185,8 @@
                                 <asp:ListItem>How many persons?</asp:ListItem>
                                 <asp:ListItem>1</asp:ListItem>
                                 <asp:ListItem>2</asp:ListItem>
-                                <asp:ListItem>3</asp:ListItem>
-                                <asp:ListItem>4</asp:ListItem>
+                                <asp:ListItem>5</asp:ListItem>
+                                <asp:ListItem>10</asp:ListItem>
                             </asp:DropDownList>
                         </div>
                         <div>
