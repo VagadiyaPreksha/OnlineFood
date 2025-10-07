@@ -41,7 +41,7 @@ namespace Foodie.User
             {
                 getcon();
 
-                cmd = new SqlCommand("insert into Contact(Name,Mobile,Email,Persons,Date) Values('" + txtnm.Text + "','" + txtnum.Text + "','" + txteml.Text + "','" + ddlpersons.Text + "','" + txtdate.Text + "')", con);
+                cmd = new SqlCommand("insert into Contact(Name,Mobile,Email,Persons,Date,) Values('" + txtnm.Text + "','" + txtnum.Text + "','" + txteml.Text + "','" + ddlpersons.Text + "','" + txtdate.Text + "')", con);
                 cmd.ExecuteNonQuery();
                 clear();
             }

@@ -2,7 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <style>
-        /* Reset */
+  /* =========================
+   Reset & Global Styles
+========================= */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Layout */
 body {
     display: flex;
     min-height: 100vh;
@@ -18,7 +19,9 @@ body {
     color: #2c3e50;
 }
 
-/* Sidebar */
+/* =========================
+   Sidebar Styles
+========================= */
 .sidebar {
     width: 230px;
     background: #1e3a5f;
@@ -56,7 +59,7 @@ body {
     display: block;
     font-size: 15px;
     border-left: 3px solid transparent;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
 .sidebar ul li a:hover {
@@ -71,9 +74,16 @@ body {
     display: block;
     padding: 12px 20px;
     margin-top: 20px;
+    transition: all 0.3s ease;
 }
 
-/* Top Bar */
+.sidebar .logout:hover {
+    background: rgba(231, 76, 60, 0.1);
+}
+
+/* =========================
+   Topbar Styles
+========================= */
 .topbar {
     margin-left: 230px;
     background: #fff;
@@ -88,9 +98,16 @@ body {
     color: #2980b9;
     font-weight: 600;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-/* Main Content */
+.topbar a:hover {
+    color: #1e3a5f;
+}
+
+/* =========================
+   Main Content Styles
+========================= */
 .main-content {
     margin-left: 230px;
     padding: 30px;
@@ -104,35 +121,41 @@ body {
     font-weight: bold;
 }
 
-/* Dashboard Cards */
+/* =========================
+   Dashboard Cards Styles
+========================= */
 .cards {
     display: flex;
-    justify-content: space-between; /* space between cards */
-    gap: 20px; /* spacing between each card */
-    flex-wrap: wrap; /* allows wrapping on smaller screens */
+    flex-wrap: wrap;        /* allows wrapping on smaller screens */
+    gap: 20px;              /* spacing between cards */
+    justify-content: space-between;
 }
 
 .card {
-    flex: 1; /* cards take equal width */
-    min-width: 200px; /* ensures they don’t get too small */
+    flex: 1;                /* cards take equal width */
+    min-width: 200px;       /* ensures they don’t get too small */
     background: #fff;
     padding: 30px;
     text-align: center;
     border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     font-size: 20px;
     font-weight: bold;
     color: #1e3a5f;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
 
     </style>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h2>Admin Dashboard</h2>
+<%--    <h2>Admin Dashboard</h2>
 
     <div class="sidebar">
     <div>
@@ -150,7 +173,7 @@ body {
 
 <div class="topbar">
     <a href="#">Online Food Ordering</a>
-</div>
+</div>--%>
 
 
 

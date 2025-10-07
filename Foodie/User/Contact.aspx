@@ -192,6 +192,9 @@
                         <div>
                             <asp:TextBox ID="txtdate" CssClass="form-control" TextMode="Date" runat="server"></asp:TextBox>
                         </div>
+                         <div>
+                        <asp:TextBox ID="txttblno" CssClass="form-control" placeholder="Enter Table Number" runat="server"></asp:TextBox>
+                    </div>
                         <div class="btn_box">
                             <asp:Button ID="btncontact" CssClass="btn" runat="server" Text="Book Now" OnClick="Button1_Click" />
                         </div>

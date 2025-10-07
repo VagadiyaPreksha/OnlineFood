@@ -13,5 +13,12 @@ namespace resturant
         {
 
         }
+
+        protected void btnLogOut_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("AdminLogin.aspx");
+        }
     }
 }
