@@ -141,7 +141,7 @@
                 <tr>
                     <td>
                         <asp:Label ID="Label1" runat="server" Text="UserName"></asp:Label><br />
-                        <asp:TextBox ID="txtunm" runat="server" Placeholder="Your User Name"></asp:TextBox>
+                        <asp:TextBox ID="txtunm" runat="server" Placeholder="Enter Your User Name"></asp:TextBox>
 
 
                     </td>
