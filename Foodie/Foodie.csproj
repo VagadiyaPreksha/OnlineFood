@@ -240,6 +240,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore.txt" />
+    <Content Include="abc.html" />
     <Content Include="Admin\AddProduct.aspx" />
     <Content Include="Admin\AddFood.aspx" />
     <Content Include="Admin\AdminLogin.aspx" />
