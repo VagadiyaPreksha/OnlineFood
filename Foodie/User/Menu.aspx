@@ -88,26 +88,29 @@
     <section class="food_section layout_padding">
         <div class="container">
             <div class="heading_container heading_center">
-                <h2>Our Menu
-                </h2>
+                <h2>Our Menu</h2>
             </div>
 
-            <ul class="filters_menu">
-                <li class="active" data-filter="*">All</li>
-                <li data-filter=".burger">Burger</li>
-                <li data-filter=".pizza">Pizza</li>
-                <li data-filter=".pasta">Pasta</li>
-                <li data-filter=".fries">Fries</li>
+            <ul class="filters_menu" style="list-style: none; display: flex; gap: 10px; justify-content: center;">
+                <asp:Button ID="Button6" runat="server" Text="All" CssClass="btn btn-primary" OnClick="Button6_Click" />
+                <asp:Button ID="Button7" runat="server" Text="Burger" CssClass="btn btn-primary" OnClick="Button7_Click" />
+                <asp:Button ID="Button8" runat="server" Text="Pizza" CssClass="btn btn-primary" OnClick="Button8_Click" />
+                <asp:Button ID="Button9" runat="server" Text="Pasta" CssClass="btn btn-primary" OnClick="Button9_Click" />
+                <asp:Button ID="Button10" runat="server" Text="Fries" CssClass="btn btn-primary" OnClick="Button10_Click" />
             </ul>
         </div>
+
         <br />
+
         <center>
             <asp:DataList ID="DataList1" runat="server"
-                CellPadding="10" CellSpacing="50" RepeatDirection="Horizontal"
-                RepeatColumns="3" OnItemCommand="DataList1_ItemCommand">
+                CellPadding="10" CellSpacing="50"
+                RepeatDirection="Horizontal" RepeatColumns="3"
+                OnItemCommand="DataList1_ItemCommand">
+
                 <ItemTemplate>
                     <div class='col-sm-6 col-lg-4 all <%# Eval("Category") %>'>
-                        <div class="box">
+                        <div class="box" style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 250px;">
                             <div class="img-box">
                                 <asp:Image ID="Image1" runat="server" CssClass="img-fluid"
                                     Height="150px" Width="150px" ImageUrl='<%# Eval("Image") %>' />
@@ -117,8 +120,6 @@
                                 <p>Config: <%# Eval("Prod_config") %></p>
                                 <div class="options">
                                     <h6>₹ <%# Eval("Price") %></h6>
-
-
                                 </div>
                             </div>
                         </div>
@@ -126,6 +127,7 @@
                 </ItemTemplate>
             </asp:DataList>
         </center>
+
         </li>
             </ul>
 

@@ -34,6 +34,7 @@ namespace Foodie.User
             con = new SqlConnection(s);
             con.Open();
         }
+        
 
         protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
         {
@@ -42,6 +43,51 @@ namespace Foodie.User
             //    int id =Convert.ToInt16(e.CommandArgument);
             //    Response.Redirect("ViewDetail.aspx?id="+id);
             //}
+        }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            da = new SqlDataAdapter("SELECT * FROM add_prod", con);
+            ds = new DataSet();
+            da.Fill(ds);
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
+        }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            da = new SqlDataAdapter("SELECT * FROM add_prod WHERE Category = 'Burger'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+            da = new SqlDataAdapter("SELECT * FROM add_prod WHERE Category = 'Pizza'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
+        }
+
+        protected void Button9_Click(object sender, EventArgs e)
+        {
+            da = new SqlDataAdapter("SELECT * FROM add_prod WHERE Category = 'Pasta'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
+        }
+
+        protected void Button10_Click(object sender, EventArgs e)
+        {
+            da = new SqlDataAdapter("SELECT * FROM add_prod WHERE Category = 'Fries'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
         }
 
         void filllist()
